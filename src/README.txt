@@ -1,0 +1,13 @@
+                        CMPS 181- Project 03 README
+
+Date: 03/14/2014
+Xiaoli Tang (xtang2@ucsc.edu)
+Luisa Fernandes (lafernan@ucsc.edu)
+
+Files Included:
+rtree.h - Contains the definition of struct and class, along with function declarations of the various functions used by these classes that are required by the assignment. 
+rtree.cpp - Contains the implementations of all functions defined for various classes in the buf.h file.
+test.cpp - display the tree, nearest neighbor, and contains
+
+Compile:  g++ rtree.h test.cpp rtree.cpp -o test
+run: ./test

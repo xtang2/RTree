@@ -1,0 +1,60 @@
+
+***************************
+
+Welcome to Microbase.
+
+***************************
+
+1  -  Microbase
+2  -  Component Tests
+3  -  Exit.:
+
+Test Choices:
+[1] - Joins
+[2] - Linear hashing access method
+[3] - Disk space management
+[4] - Buffer management
+[5] - Heap file storage
+[6] - Static Hash index
+[7] - Heap File Page
+[8] - B+ Tree Index
+[9] - Sort Merge Join
+[10] - Benchmark
+[11] - Quit
+Pick one: 
+Running Buffer Management tests...
+
+  Test 1 does a simple test of normal buffer manager operations:
+  - Allocate a bunch of new pages
+  - Write something on each one
+  - Read that something back from each one
+      (because we're buffering, this is where most of the writes happen)
+  - Free the pages again
+  Test 1 completed successfully.
+
+  Test 2 exercises some illegal buffer manager operations:
+  - Try to pin more pages than there are frames
+    --> Failed as expected
+  - Try to free a doubly-pinned page
+    --> Failed as expected
+  - Try to unpin an unpinned page
+    --> Failed as expected
+  Test 2 completed successfully.
+
+  Test 3 exercises some of the internals of the buffer manager
+  - Allocate and dirty some new pages, one at a time, and leave some pinned
+  - Read the pages
+  Test 3 completed successfully.
+
+...Buffer Management tests completed successfully.
+
+1  -  Microbase
+2  -  Component Tests
+3  -  Exit.:
+
+***************************
+
+Thank you for using Microbase.
+
+***************************
+
